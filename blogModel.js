@@ -7,25 +7,15 @@ var Schema = mongoose.Schema;
 var blogSchema = new Schema({
 
 	title 		: {type:String,default:'',required:true},
-	
 	subTitle	: {type:String,default:''},
-	
 	blogBody	: {type:String,default:''},
-	
-	authorInfo	: {},
-	
+	authorName	: {type:String,default:''},
 	created		: {type:Date},
-	
 	lastModified: {type:Date},
-	
 	imageUrl	: {type:String,default:''},
-	
 	tags		: [],
-	
 	comments    : [],
-	
 	likes       : [],
-	
 	shares      : []
 
 });

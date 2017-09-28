@@ -1,0 +1,27 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "This is my first blog app",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.5",
+    "express-validator": "^4.1.1",
+    "mongoose": "^4.10.8",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gianchandania/crud-apis.git"
+  },
+  "author": "Akash Gianchandani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gianchandania/crud-apis/issues"
+  },
+  "homepage": "https://github.com/gianchandania/crud-apis#readme"
+}
